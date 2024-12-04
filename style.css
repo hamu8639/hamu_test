@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+	background-color:lightblue;		/* 背景色を変更
+	color: navy;				
+	font-family: Arial, sans-serif;
+	line-height: 0.8;			/* 行間を1.2倍に設定 */
+
+}
+header {
+	background-color:white;			/* ヘッダーの背景色を白に設定 */
+	padding: 3px;
+	border: 1px solid #ccc;			/* 境界線の追加（オプション） */
+	line-height: 0.8;
+}
+.highlight {
+	background-color: white;
+	display: block; 			/* 行全体を背景色で覆う */
+	padding: 5px;				/* 内側の余白 */
+	margin: 5px 0; /* 外側の余白 */
+	border-radius: 3px;			/* 角を丸くする（オプション） */
+}
